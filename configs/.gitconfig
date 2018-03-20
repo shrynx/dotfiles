@@ -1,0 +1,21 @@
+[color]
+	ui = true
+	diff = true
+
+[user]
+	email = shriyansbhatnagar@gmail.com
+	name = Shriyans
+
+[alias]
+	l = log --pretty=format:'%Cred%h %Cgreen%an %Creset%s' --name-status
+	lg = log --decorate=short
+	co = checkout
+	br = branch
+	cm = commit
+	pick = cherry-pick
+	g = grep --line-number
+	sh = show --pretty=format:'%Cred%h %Cgreen%an %Creset%s' --name-status
+	st = status
+	
+[core]
+	editor = nvim
