@@ -20,3 +20,8 @@ sh ./install_config.sh
 ```
 sh ./setup.sh
 ```
+
+## Other
+
+* vscode  
+  use [vscode sync-setting](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) and [gist](https://gist.github.com/shrynx/efcf217e03c2a1bf5e3ce2e85a319191)
