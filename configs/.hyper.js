@@ -86,7 +86,7 @@ module.exports = {
 
     // for advanced config flags please refer to https://hyper.is/#cfg
     hyperTransparentDynamic: {
-      alpha: 0.75
+      alpha: 0.90
     },
     hyperTabs: {
       trafficButtons: true,
