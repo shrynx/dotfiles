@@ -65,6 +65,7 @@ SPACESHIP_CHAR_SYMBOL="%B%F{blue}λ%F{green}λ%F{cyan}λ%F{magenta}λ%F{red}λ %
 plugins=(
   git
   zsh-completions
+  yarn-autocompletions
 )
 
 autoload -U compinit && compinit
