@@ -91,7 +91,16 @@ module.exports = {
     hyperTabs: {
       trafficButtons: true,
       tabIconsColored: true,
-    }
+    },
+    hyperline: {                                                                 
+      plugins: [                                                                 
+        "ip",
+        "memory",                                                                    
+        "cpu",
+        "network",                                                                   
+        "spotify"                                                                
+      ]                                                                          
+    },
   },
   plugins: [
     'hyper-transparent-dynamic',
