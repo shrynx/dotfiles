@@ -103,6 +103,7 @@ module.exports = {
     },
   },
   plugins: [
+    'hypercwd',
     'hyper-transparent-dynamic',
     'hyper-tabs-enhanced',
     'hyperterm-lastpass',

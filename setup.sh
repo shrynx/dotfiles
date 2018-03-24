@@ -4,7 +4,7 @@
 if ! type brew > /dev/null; then
  echo "installing brew"
  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" && \
- brew install git tmux neovim && \
+ brew install git tmux neovim gnupg && \
  # https://github.com/sindresorhus/quick-look-plugins
  brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize webpquicklook suspicious-package quicklookase qlvideo
 fi

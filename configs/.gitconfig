@@ -5,6 +5,7 @@
 [user]
 	email = shriyansbhatnagar@gmail.com
 	name = Shriyans
+	signingkey = 19157ED09CF99AF8
 
 [alias]
 	l = log --pretty=format:'%Cred%h %Cgreen%an %Creset%s' --name-status
@@ -19,3 +20,7 @@
 	
 [core]
 	editor = nvim
+[commit]
+	gpgsign = true
+[gpg]
+	program = /usr/local/bin/gpg
