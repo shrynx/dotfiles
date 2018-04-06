@@ -45,7 +45,7 @@ fi
 # check and install purescript
 if ! type purs > /dev/null; then
  echo "installing purs and pulp"
-  npm install -g purescript pulp bower
+  npm install -g purescript pulp bower psc-package
 fi
 
 # check and install rustup
